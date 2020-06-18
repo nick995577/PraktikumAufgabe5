@@ -1,8 +1,6 @@
 package de.hfu;
 
-import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
 
 public class Util {
 
@@ -12,9 +10,6 @@ public class Util {
 		return false;
 	}
 	
-	@Test
-    public void testIstErstesHalbjahr() {        
-        assertEquals(true, istErstesHalbjahr(1));
-    }
+	
 
 }
